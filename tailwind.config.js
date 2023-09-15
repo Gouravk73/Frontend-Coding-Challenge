@@ -1,7 +1,15 @@
 module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'ssm':'400px',
+        'sm': '768px',
+        'md': '1024px',
+         
+        'lg': '1280px',
+      },
+    },
   },
   variants: {},
   plugins: [],
