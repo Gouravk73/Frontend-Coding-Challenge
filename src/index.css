@@ -17,3 +17,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.font-agrandir {
+  font-family: 'Agrandir';  
+  src: url('./assets/font//Agrandir\ Grand\ Heavy\ 800.otf') format('opentype');
+}
