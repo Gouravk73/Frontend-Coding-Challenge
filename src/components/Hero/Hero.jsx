@@ -32,7 +32,7 @@ const Hero = () => {
         <img
             src={introPhone}
             alt="Flex Intro Phone"
-            className="border   h-[350px] sm:h-[453px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[4] object-cover"
+            className="h-[350px] sm:h-[453px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[4] object-cover"
             />
             <h1
             className="absolute  top-[20%] sm:top-[25%] w-full text-center text-white text-[130px] sm:text-[193px] font-[800] uppercase tracking-[0.5px] leading-[166px] z-[5]"
