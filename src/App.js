@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero/Hero'
 import Payments from './components/payment/Payments';
 import Banking from './components/Banking/Banking';
+import CardCash from './components/cardcash/CardCash';
 function App() {
   return (
     <BrowserRouter>
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <Payments/>
       <Banking/>
+      <CardCash/>
 
     </div>
     </BrowserRouter>
