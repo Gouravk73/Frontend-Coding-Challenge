@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Payments from './components/payment/Payments';
 import Banking from './components/Banking/Banking';
 import CardCash from './components/cardcash/CardCash';
+import Investing from './components/investing/Investing';
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
       <Payments/>
       <Banking/>
       <CardCash/>
+      <Investing/>
 
     </div>
     </BrowserRouter>

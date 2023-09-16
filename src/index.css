@@ -21,3 +21,7 @@ code {
   font-family: 'Agrandir';  
   src: url('./assets/font//Agrandir\ Grand\ Heavy\ 800.otf') format('opentype');
 }
+
+.black-filter {
+  filter: brightness(0%) grayscale(100%);
+}
